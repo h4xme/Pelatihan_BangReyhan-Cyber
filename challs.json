@@ -1,0 +1,131 @@
+{
+    "data": {
+        "OSINT": [
+            {
+                "category": "OSINT",
+                "description": "Rest in Peace untuk korban Jeju Air. \r\nBantu cari beberapa data berikut untuk laporan pasca insiden\r\nFormat flag: {KodeICAOPesawat}_{JamDepartureWaktuSetempat}_{NamaDepanPilot}\r\ncontoh: BPKCTF{THY5481_08:00_Syuaib}",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "Jeju",
+                "points": 470,
+                "solves": 2
+            }
+        ],
+        "crypto": [
+            {
+                "category": "crypto",
+                "description": "Tukang tembaga di papua mengatakan bahwa algoritma crypto RSA itu aman. Coba bantu validasi statement tersebut",
+                "files": [
+                    "/files/4fdca9331bac6f30426d3f1e58a3b00e/chall.py?token=eyJ1c2VyX2lkIjo2LCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjoxfQ.aQxlBg.yvCc4rI1-bFWdMg7_ljq6SoCt3s",
+                    "/files/875e7ece5c81c9b00545e7bb1b43dd61/output.txt?token=eyJ1c2VyX2lkIjo2LCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjoyfQ.aQxlBg.0LYCctbpd5XvUzobkVYan7_2kXE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "RSA!",
+                "points": 290,
+                "solves": 8
+            }
+        ],
+        "forensic": [
+            {
+                "category": "forensic",
+                "description": "Siang bolong minum es kelapa muda enak loh. \r\nNote: jangan lupa flag dibungkus BPKCTF{flag}",
+                "files": [
+                    "/files/eb762bc7a53685bea2af6f348e48c451/EsKelapaMuda.png?token=eyJ1c2VyX2lkIjo2LCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjozfQ.aQxlBg.Kwb5pXJP9CgDR4_-EaOh3UDcTmE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 2,
+                "name": "Es Kelapa Muda",
+                "points": 470,
+                "solves": 2
+            }
+        ],
+        "network": [
+            {
+                "category": "network",
+                "description": "Divisi Keamanan Siber di Badan Pengawasan Keuangan (BPK) berhasil mendeteksi aktivitas mencurigakan dalam jaringan internal mereka. Sebuah serangan yang tidak biasa terdeteksi melalui alat monitoring, dan tim forensik berhasil mengekstrak file log jaringan dalam format .pcap.\r\n\r\nDari analisis awal, diketahui bahwa serangan tersebut memanfaatkan celah keamanan pada salah satu aplikasi atau protokol yang digunakan. Namun, hingga saat ini, tim belum berhasil mengidentifikasi CVE ID (Common Vulnerabilities and Exposures) yang digunakan oleh pelaku.\r\n\r\nSebagai seorang analis keamanan siber, Anda ditugaskan untuk memecahkan kasus ini. Tugas Anda adalah mengidentifikasi CVE ID dari kerentanan yang dieksploitasi dengan menganalisis file PCAP yang telah diberikan. Gunakan keahlian Anda dalam membaca log jaringan, mendeteksi pola serangan, dan memahami eksploitasi kerentanan.\r\n\r\nFormat flag BPKCTF{CVE-202X-XXXX}",
+                "files": [
+                    "/files/8fdf8cc887223b1044768930d9e08395/pcap_analysis.pcapng?token=eyJ1c2VyX2lkIjo2LCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjo0fQ.aQxlBg.sjPa8_0I0Kx79EEEUc6j8Iy0Xjo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "Can you find the CVE",
+                "points": 500,
+                "solves": 1
+            }
+        ],
+        "pwn": [
+            {
+                "category": "pwn",
+                "description": "request mas hisam",
+                "files": [
+                    "/files/49034e8d87456b948e01b85111df3574/chall?token=eyJ1c2VyX2lkIjo2LCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjo3fQ.aQxlBg.6VFEnZfJYczR_aSVqMCLbNi90hc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "authenticator",
+                "points": 500,
+                "solves": 1
+            }
+        ],
+        "reverse": [
+            {
+                "category": "reverse",
+                "description": "reverse me",
+                "files": [
+                    "/files/edb75db2b1937d783cd3c2b36f5bf919/rot_1?token=eyJ1c2VyX2lkIjo2LCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjo2fQ.aQxlBg.cQLs38TcNxt6fRhTAxcgZp61kPE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 7,
+                "name": "brainrot",
+                "points": 410,
+                "solves": 4
+            }
+        ],
+        "steganography": [
+            {
+                "category": "steganography",
+                "description": "Hanya foto monas biasa... Apa iya?",
+                "files": [
+                    "/files/b3a08d5a3cd0b45f931ac41154a76d4c/monas.jpg?token=eyJ1c2VyX2lkIjo2LCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjo1fQ.aQxlBg.Ehi33vK1vqykG7V8YOR-Q-5gSCU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "just monas",
+                "points": 440,
+                "solves": 3
+            }
+        ],
+        "web": [
+            {
+                "category": "web",
+                "description": "Sebuah website sederhana untuk menghitung BMI",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 6,
+                "name": "kalkulator bmi",
+                "points": 470,
+                "solves": 2
+            }
+        ]
+    },
+    "title": "CTF",
+    "url": "http://103.59.94.50"
+}
